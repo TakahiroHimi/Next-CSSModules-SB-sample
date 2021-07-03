@@ -1,0 +1,9 @@
+@import "../styles/valiables.scss";
+
+.button {
+  background-color: var(--c-primary);
+
+  @include mq(md) {
+    background-color: red;
+  }
+}
